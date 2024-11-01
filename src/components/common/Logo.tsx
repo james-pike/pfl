@@ -8,8 +8,8 @@ export default component$(() => (
     <img
       src={logoSrc}
       class="inline-block mr-1"
-      width={160}
-      height={60}
+      width={145}
+      height={55}
       alt="Pike Family Law Logo"
       loading="lazy"
     />
