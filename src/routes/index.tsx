@@ -24,7 +24,7 @@ export default component$(() => {
       <div class="h-[85vh] w-full bg-gradient-to-r from-gray-200 via-blue-200 to-gray-300">
       <Hero />
     </div>
-   <div class="pt-20 sm:pt-0"></div>
+   <div class="pt-40 sm:pt-0"></div>
       <Features
   highlight="Our Services"
   title="What You Receive with Our Expertise"
