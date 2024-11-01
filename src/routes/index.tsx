@@ -21,7 +21,10 @@ import { SITE } from "~/config.mjs";
 export default component$(() => {
   return (
     <>
+      <div class="h-[90vh] w-full bg-gradient-to-r from-gray-200 via-blue-200 to-gray-300">
       <Hero />
+    </div>
+   
       <Features
         highlight="Features"
         title="What you get with Qwind"
