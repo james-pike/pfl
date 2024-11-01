@@ -24,8 +24,7 @@ export default component$(() => {
                   Comprehensive Legal Support
                 </span>{" "}
                 from a highly experienced family lawyer in Toronto, specializing in Divorce, Child Custody, Spousal Support,
-                Property Division, Adoption, and Mediation. Offering a personal approach and commitment to securing the best outcome
-                for you and your family.
+                Property Division, Adoption, Mediation and more.
               </p>
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
                 Schedule a <em>Free Consultation</em> today to discuss how we can support your legal needs and help you
