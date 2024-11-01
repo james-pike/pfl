@@ -24,22 +24,22 @@ export default component$(() => {
       
       ],
     },
-    // {
-    //   title: "Support",
-    //   items: [
-    //     { title: "Docs", href: "#" },
+    {
+      title: "Support",
+      items: [
+        { title: "Docs", href: "#" },
   
       
-    //   ],
-    // },
-    // {
-    //   title: "Company",
-    //   items: [
-    //     { title: "About", href: "#" },
+      ],
+    },
+    {
+      title: "Company",
+      items: [
+        { title: "About", href: "#" },
       
      
-    //   ],
-    // },
+      ],
+    },
   ];
 
   // const social = [
