@@ -24,8 +24,7 @@ export default component$(() => {
                   Comprehensive Legal Support
                 </span>{" "}
                 specializing in Divorce, Child Custody, Spousal Support,
-                Property Division, Adoption, Mediation and more. Schedule a <em class="text-sky-500">Free Consultation</em> today to discuss how we can support your legal needs and help you
-                navigate the complexities of family law.
+                Property Division, Adoption, Mediation and more. Schedule a <em class="text-sky-500">Free Consultation</em> today!
               </p>
             
 

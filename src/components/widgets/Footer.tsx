@@ -106,13 +106,17 @@ export default component$(() => {
 
           <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
           <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-            © 2024 · Pike Family Law · All rights reserved. 
-            
-            Made by{" "}
-            <a class="text-secondary-800 underline dark:text-gray-200" href="https://onwidget.com/">
-              {" "}
-              onWidget
-            </a>{" "}
+           
+          <div class="flex justify-between">
+  <span>© 2024 Pike Family Law</span>
+  <span>
+    Made by
+    <a class="text-secondary-800 underline dark:text-gray-200" href="https://webdev.ca/">
+      Webdev.ca
+    </a>
+  </span>
+</div>
+
           </div>
         </div>
       </div>
