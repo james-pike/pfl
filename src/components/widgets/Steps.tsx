@@ -7,36 +7,39 @@ const sideImg =
 
 export default component$(() => {
   const stepsData = {
-    title: "Sed ac magna sit amet risus tristique interdum. hac.",
+    title: "Your Journey to Legal Resolution",
     items: [
       {
-        title: "Step 1",
+        title: "Step 1: Initial Consultation",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.",
-        icon: IconStar,
+          "Meet with our experienced family lawyer to discuss your unique situation. We’ll go over the basics, answer your questions, and outline the next steps for moving forward effectively.",
+        icon: IconStar,  // Replace IconStar with a suitable consultation icon
       },
       {
-        title: "Step 2",
+        title: "Step 2: Case Preparation",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.",
-        icon: IconStar,
+          "Our team will gather essential documents, review your case details, and prepare a tailored legal strategy aimed at achieving the best outcome in your family matter.",
+        icon: IconStar,  // Replace IconStar with a suitable document icon
       },
       {
-        title: "Step 3",
+        title: "Step 3: Negotiation & Mediation",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.",
-        icon: IconStar,
+          "Whenever possible, we work to resolve disputes amicably. We’ll represent your interests in negotiations and mediation, striving for a favorable settlement outside of court.",
+        icon: IconStar,  // Replace IconStar with a suitable mediation icon
       },
       {
-        title: "Ready!",
-        icon: IconStar,
+        title: "Ready: Final Resolution",
+        description:
+          "We’ll guide you through the final steps of your case, ensuring a smooth resolution. Our commitment remains steadfast, whether through settlement or court proceedings.",
+        icon: IconStar,  // Replace IconStar with a suitable resolution icon
       },
     ],
     image: {
       src: sideImg,
-      alt: "Steps image",
+      alt: "Steps image illustrating the client journey with a family lawyer",
     },
   };
+  
   const { title, items, image } = stepsData;
 
   return (

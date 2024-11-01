@@ -14,7 +14,7 @@ export default component$(() => {
             <h1 class="text-6xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
               <span>Experienced</span>
               <br />
-              <span class="text-sky-500">Family Lawyer</span>
+              <span class="text-blue-800">Family Lawyer</span>
               <br />
               <span>in Toronto</span>
             </h1>

@@ -24,49 +24,50 @@ export default component$(() => {
       <div class="h-[85vh] w-full bg-gradient-to-r from-gray-200 via-blue-200 to-gray-300">
       <Hero />
     </div>
-   
+   <div class="pt-20 sm:pt-0"></div>
       <Features
-        highlight="Features"
-        title="What you get with Qwind"
-        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
-        items={[
-          {
-            title: "Qwik + Tailwind CSS Integration",
-            description:
-              "A seamless integration between two great frameworks that offer high productivity, performance and versatility.",
-            icon: IconBrandTailwind,
-          },
-          {
-            title: "Ready-to-use Components",
-            description:
-              "Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...",
-            icon: IconApps,
-          },
-          {
-            title: "Best Practices",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-          },
-          {
-            title: "Excellent Page Speed",
-            description:
-              "Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.",
-            icon: IconRocket,
-          },
-          {
-            title: "Search Engine Optimization (SEO)",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-            icon: IconBrandGoogle,
-          },
-          {
-            title: "Open to new ideas and contributions",
-            description:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.",
-            icon: IconBulb
-          },
-        ]}
-      />
+  highlight="Our Services"
+  title="What You Receive with Our Expertise"
+  subtitle="Providing trusted legal guidance and support in family law matters to help you make informed decisions and protect your family's future."
+  items={[
+    {
+      title: "Personalized Legal Strategy",
+      description:
+        "A customized approach that takes into account your unique circumstances, ensuring your interests are represented every step of the way.",
+      icon: IconBrandTailwind,
+    },
+    {
+      title: "Comprehensive Family Law Services",
+      description:
+        "Guidance and representation across all family law areas, including divorce, child custody, spousal support, property division, and more.",
+      icon: IconApps,
+    },
+    {
+      title: "Transparent Communication",
+      description:
+        "Clear, timely updates on your case status and an open line of communication, so you know where things stand and what to expect.",
+    },
+    {
+      title: "Strong Courtroom Advocacy",
+      description:
+        "Skilled representation in court, with a focus on protecting your rights and achieving the best possible outcomes for you and your family.",
+      icon: IconRocket,
+    },
+    {
+      title: "Compassionate Guidance",
+      description:
+        "Providing a supportive environment to help you navigate emotionally challenging situations with empathy and understanding.",
+      icon: IconBrandGoogle,
+    },
+    {
+      title: "Commitment to Ethical Practice",
+      description:
+        "A dedication to maintaining the highest ethical standards, ensuring confidentiality, respect, and professionalism in all interactions.",
+      icon: IconBulb,
+    },
+  ]}
+/>
+
       <Steps />
       <FAQs
         title="Frequently Asked Questions"
