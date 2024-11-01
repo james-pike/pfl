@@ -1,4 +1,4 @@
-import { component$, useSignal, useStore } from "@builder.io/qwik";
+import { component$, useStore } from "@builder.io/qwik";
 import { useContent } from "@builder.io/qwik-city";
 
 import Logo from "~/components/common/Logo";
