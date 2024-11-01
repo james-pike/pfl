@@ -23,13 +23,11 @@ export default component$(() => {
                 <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
                   Comprehensive Legal Support
                 </span>{" "}
-                from a highly experienced family lawyer in Toronto, specializing in Divorce, Child Custody, Spousal Support,
-                Property Division, Adoption, Mediation and more.
-              </p>
-              <p class="text-xl text-muted mb-6 dark:text-slate-300">
-                Schedule a <em>Free Consultation</em> today to discuss how we can support your legal needs and help you
+                specializing in Divorce, Child Custody, Spousal Support,
+                Property Division, Adoption, Mediation and more. Schedule a <em>Free Consultation</em> today to discuss how we can support your legal needs and help you
                 navigate the complexities of family law.
               </p>
+            
 
               <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 lg:justify-start lg:m-0 lg:max-w-7xl">
                 <div class="flex w-full sm:w-auto">
