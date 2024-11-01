@@ -36,17 +36,17 @@ export default component$(() => {
             <Logo />
           </a>
           <div class="flex items-center md:hidden">
-            {store.isScrolling && (
-              <span class="mr-1 rtl:ml-0 rtl:mr-4">
-                <a
-                  href="https://github.com/onwidget/qwind"
-                  class="btn btn-primary bg-blue-800 ml-2 py-2.5 px-5 md:px-6 font-semibold shadow-none text-sm w-auto"
-                >
-                  Contact Us
-                </a>
-              </span>
-            )}
+            {/* <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" /> */}
+            <span class="mr-1 rtl:ml-0 rtl:mr-4">
+              <a
+                href="https://github.com/onwidget/qwind"
+                class="btn btn-primary bg-blue-800 ml-2 py-2.5 px-5 md:px-6 font-semibold shadow-none text-sm w-auto"
+              >
+                Contact Us
+              </a>
+            </span>
             <ToggleMenu />
+           
           </div>
         </div>
         <nav
