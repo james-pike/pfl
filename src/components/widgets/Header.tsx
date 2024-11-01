@@ -5,7 +5,6 @@ import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
-import ContactDrawer from "./ContactDrawer";
 
 export default component$(() => {
   const store = useStore({
@@ -13,8 +12,6 @@ export default component$(() => {
   });
 
   const { menu } = useContent();
-
-  // const isDrawerOpen = useSignal(false);
 
   return (
     <header
@@ -41,13 +38,12 @@ export default component$(() => {
           <div class="flex items-center md:hidden">
             {/* <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" /> */}
             <span class="mr-1 rtl:ml-0 rtl:mr-4">
-              {/* <a
+              <a
                 href="https://github.com/onwidget/qwind"
                 class="btn btn-primary bg-blue-800 ml-2 py-2.5 px-5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
                 Contact Us
-              </a> */}
-              <ContactDrawer />
+              </a>
             </span>
             <ToggleMenu />
            
@@ -95,13 +91,12 @@ export default component$(() => {
               <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
             </div>
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
-              {/* <a
+              <a
                 href="https://github.com/onwidget/qwind"
                 class="btn btn-primary bg-blue-800 ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
                 Contact Us
-              </a> */}
-              <ContactDrawer />
+              </a>
             </span>
           </div>
         </div>

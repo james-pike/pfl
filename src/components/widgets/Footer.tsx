@@ -12,7 +12,7 @@ export default component$(() => {
       title: "Product",
       items: [
         { title: "Features", href: "#" },
-        { title: "Security", href: "#" },
+       
      
       ],
     },
@@ -20,26 +20,26 @@ export default component$(() => {
       title: "Platform",
       items: [
         { title: "Developer API", href: "#" },
-        { title: "Partners", href: "#" },
+        
       
       ],
     },
-    {
-      title: "Support",
-      items: [
-        { title: "Docs", href: "#" },
-        { title: "Community Forum", href: "#" },
+    // {
+    //   title: "Support",
+    //   items: [
+    //     { title: "Docs", href: "#" },
+  
       
-      ],
-    },
-    {
-      title: "Company",
-      items: [
-        { title: "About", href: "#" },
-        { title: "Blog", href: "#" },
+    //   ],
+    // },
+    // {
+    //   title: "Company",
+    //   items: [
+    //     { title: "About", href: "#" },
+      
      
-      ],
-    },
+    //   ],
+    // },
   ];
 
   // const social = [
