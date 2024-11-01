@@ -11,7 +11,7 @@ export default component$(() => {
         <div class="pt-0 pointer-events-none"></div>
         <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
           <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
-            <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
+            <h1 class="text-6xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
               <span>Experienced</span>
               <br />
               <span class="text-sky-500">Family Lawyer</span>

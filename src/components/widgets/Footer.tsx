@@ -13,11 +13,7 @@ export default component$(() => {
       items: [
         { title: "Features", href: "#" },
         { title: "Security", href: "#" },
-        { title: "Team", href: "#" },
-        { title: "Enterprise", href: "#" },
-        { title: "Customer stories", href: "#" },
-        { title: "Pricing", href: "#" },
-        { title: "Resources", href: "#" },
+     
       ],
     },
     {
@@ -25,9 +21,7 @@ export default component$(() => {
       items: [
         { title: "Developer API", href: "#" },
         { title: "Partners", href: "#" },
-        { title: "Atom", href: "#" },
-        { title: "Electron", href: "#" },
-        { title: "Qwind Desktop", href: "#" },
+      
       ],
     },
     {
@@ -35,9 +29,7 @@ export default component$(() => {
       items: [
         { title: "Docs", href: "#" },
         { title: "Community Forum", href: "#" },
-        { title: "Professional Services", href: "#" },
-        { title: "Skills", href: "#" },
-        { title: "Status", href: "#" },
+      
       ],
     },
     {
@@ -45,25 +37,21 @@ export default component$(() => {
       items: [
         { title: "About", href: "#" },
         { title: "Blog", href: "#" },
-        { title: "Careers", href: "#" },
-        { title: "Press", href: "#" },
-        { title: "Inclusion", href: "#" },
-        { title: "Social Impact", href: "#" },
-        { title: "Shop", href: "#" },
+     
       ],
     },
   ];
 
-  const social = [
-    { label: "Twitter", icon: IconTwitter, href: "#" },
-    { label: "Instagram", icon: IconInstagram, href: "#" },
-    { label: "Facebook", icon: IconFacebook, href: "#" },
-    {
-      label: "Github",
-      icon: IconGithub,
-      href: "https://github.com/onwidget/qwind",
-    },
-  ];
+  // const social = [
+  //   { label: "Twitter", icon: IconTwitter, href: "#" },
+  //   { label: "Instagram", icon: IconInstagram, href: "#" },
+  //   { label: "Facebook", icon: IconFacebook, href: "#" },
+  //   {
+  //     label: "Github",
+  //     icon: IconGithub,
+  //     href: "https://github.com/onwidget/qwind",
+  //   },
+  // ];
 
   return (
     <footer class="border-t border-gray-200 dark:border-slate-800">
@@ -101,7 +89,7 @@ export default component$(() => {
           ))}
         </div>
         <div class="md:flex md:items-center md:justify-between py-6 md:py-8">
-          <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
+          {/* <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>
                 <Link
@@ -114,16 +102,17 @@ export default component$(() => {
                 </Link>
               </li>
             ))}
-          </ul>
+          </ul> */}
 
           <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
+            
+            Copyright © 2024. Pike Family Law · All rights reserved. 
             <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
             Made by{" "}
             <a class="text-secondary-800 underline dark:text-gray-200" href="https://onwidget.com/">
               {" "}
               onWidget
             </a>{" "}
-            · All rights reserved.
           </div>
         </div>
       </div>
