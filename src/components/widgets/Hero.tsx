@@ -37,7 +37,7 @@ export default component$(() => {
                     target="_blank"
                     rel="noopener"
                   >
-                    Get template
+                    Book A Free Consultation
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">
