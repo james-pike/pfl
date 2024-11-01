@@ -37,7 +37,7 @@ export default component$(() => {
           </a>
           <div class="flex items-center md:hidden">
             {/* <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" /> */}
-            <span class="mr-1 rtl:ml-0 rtl:mr-4">
+            <span class="mr-2 rtl:ml-0 rtl:mr-4">
               <a
                 href="https://github.com/onwidget/qwind"
                 class="btn btn-primary ml-2 py-2.5 px-5 md:px-6 font-semibold shadow-none text-sm w-auto"
