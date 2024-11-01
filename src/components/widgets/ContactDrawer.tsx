@@ -1,5 +1,5 @@
 import { component$, useSignal } from '@builder.io/qwik';
-import { Button, Drawer, Link } from 'flowbite-qwik';
+import { Button, Drawer } from 'flowbite-qwik';
 import { IconHomeOutline } from 'flowbite-qwik-icons';
 
 export default component$(() => {
