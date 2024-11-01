@@ -70,41 +70,43 @@ export default component$(() => {
 
       <Steps />
       <FAQs
-        title="Frequently Asked Questions"
-        subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
-        highlight="FAQs"
-        items={[
-          {
-            title: "What do I need to start?",
-            description:
-              "Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.",
-          },
-          {
-            title: "How to install the Qwik + Tailwind CSS template?",
-            description:
-              "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
-          },
-          {
-            title: "What's something that you don't understand?",
-            description:
-              "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-          },
-          {
-            title: "What's an example of when you changed your mind?",
-            description:
-              "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
-          },
-          {
-            title: "What is something that you would like to try again?",
-            description:
-              "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-          },
-          {
-            title: "If you could only ask one question to each person you meet, what would that question be?",
-            description:
-              "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-          },
-        ]}
+  title="Frequently Asked Questions"
+  subtitle="Whether you're facing a divorce, custody dispute, or need advice on family law matters, we're here to help. Below are some common questions our clients ask."
+  highlight="FAQs"
+  items={[
+    {
+      title: "What should I bring to my first consultation?",
+      description:
+        "For your first meeting, it’s helpful to bring any relevant documents, such as financial statements, custody agreements, or court orders. We’ll go over your situation in detail and provide guidance on the next steps.",
+    },
+    {
+      title: "How long does the divorce process take in Ontario?",
+      description:
+        "The length of the divorce process varies depending on whether the matter is contested or uncontested. Uncontested divorces typically take a few months, while contested matters can take significantly longer, especially if they involve disputes over custody or property.",
+    },
+    {
+      title: "What are the steps to begin a custody or access case?",
+      description:
+        "If you’re seeking custody or access arrangements, we can assist you with filing the necessary applications and representing your interests in court or mediation. Each case is unique, so we’ll discuss the best approach based on your specific circumstances.",
+    },
+    {
+      title: "How is child support determined in Ontario?",
+      description:
+        "Child support is typically calculated based on the paying parent's income and follows the federal Child Support Guidelines. Additional expenses, like daycare and education costs, may also be shared. We can help ensure that support calculations are fair and accurate.",
+    },
+    {
+      title: "What can I do if I need to modify an existing court order?",
+      description:
+        "Life changes, and so can court orders. If you need to adjust an existing order—whether for custody, support, or access—we can guide you through the process of applying for a modification and help you present a strong case for your requested changes.",
+    },
+    {
+      title: "What are the options for resolving disputes without going to court?",
+      description:
+        "There are several alternatives to court, such as mediation, collaborative law, and arbitration. These methods are often faster, less costly, and can be less stressful, especially in family law cases. We’ll help you explore the best options for your situation.",
+    },
+  ]}
+
+
       />
       <Stats />
       <CallToAction />
