@@ -105,8 +105,6 @@ export default component$(() => {
         "There are several alternatives to court, such as mediation, collaborative law, and arbitration. These methods are often faster, less costly, and can be less stressful, especially in family law cases. We’ll help you explore the best options for your situation.",
     },
   ]}
-
-
       />
       <Stats />
       <CallToAction />

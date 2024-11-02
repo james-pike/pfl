@@ -1,15 +1,15 @@
-import { component$, useStore } from "@builder.io/qwik";
-import IconMenu from "~/components/icons/IconMenu"
+import { component$, useStore, PropFunction } from "@builder.io/qwik";
+import IconMenu from "~/components/icons/IconMenu";
 
 interface ItemProps {
   iconClass?: string;
+  onClick?: PropFunction<() => void>;
+  isOpen: boolean; // Add isOpen here
 }
 
-export default component$((props: ItemProps) => {
-  const { iconClass } = props;
-
+export default component$(({ iconClass, onClick, isOpen }: ItemProps) => {
   const store = useStore({
-    isExpanded: false,
+    isExpanded: isOpen, // Initialize with the isOpen prop value
   });
 
   return (
@@ -20,12 +20,15 @@ export default component$((props: ItemProps) => {
       }`}
       aria-label="Toggle Menu"
       onClick$={() => {
-        store.isExpanded = store.isExpanded ? false : true;
+        store.isExpanded = !store.isExpanded;
 
-        // TODO:
+        // Toggle other elements when menu is expanded
         document.body.classList.toggle("overflow-hidden");
         document.getElementById("header")?.classList.toggle("h-screen");
         document.querySelector("#header nav")?.classList.toggle("hidden");
+
+        // Call the onClick prop if provided
+        onClick && onClick();
       }}
     >
       <IconMenu class={iconClass} />
