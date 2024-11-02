@@ -1,7 +1,7 @@
 import { component$, useStore, Signal, Slot, $ } from "@builder.io/qwik";
 import Logo from "~/components/common/Logo";
 import ToggleTheme from "~/components/common/ToggleTheme";
-
+import ToggleMenu from "~/components/common/ToggleMenu";
 
 export default component$(() => {
   const store = useStore({
@@ -47,7 +47,7 @@ export default component$(() => {
                   Contact Us
                 </a>
               </span>
-              {/* <ToggleMenu onClick$={onToggleNav} isOpen={isNavOpen.value} /> */}
+              <ToggleMenu onClick$={onToggleNav} isOpen={isNavOpen.value} />
             </div>
           </div>
           <nav
