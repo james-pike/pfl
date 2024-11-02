@@ -8,6 +8,13 @@ export default component$(() => {
     isScrolling: false,
   });
 
+  const onClick$ = $(() => {
+    // Your toggle logic here
+    console.log("Menu toggled");
+  });
+   
+  
+
   const isNavOpen: Signal<boolean> = useStore({ value: false });
 
   const onToggleNav = $(() => {
